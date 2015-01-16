@@ -13,7 +13,7 @@ var jsonToSend = {
 
 
 //Server
-PORT_NO=80;
+PORT_NO=8080;
 
 http.createServer(function(req, res){
   switch(req.url) {
