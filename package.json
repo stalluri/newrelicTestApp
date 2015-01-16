@@ -1,0 +1,25 @@
+{
+  "name": "newrelicTestApp",
+  "version": "0.1.0",
+  "description": "An app to deploy on multiple hosts to test Newrelic",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "newrelic": "1.14.6"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stalluri/newrelicTestApp"
+  },
+  "keywords": [
+    "node",
+    "newrelic"
+  ],
+  "author": "Satish Talluri",
+  "license": "MIT"
+}
