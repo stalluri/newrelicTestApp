@@ -10,7 +10,11 @@ var jsonToSend = {
   Role:"Adminstrator"
 };
 
+
+
 //Server
+PORT_NO=80;
+
 http.createServer(function(req, res){
   switch(req.url) {
     case '/5000' :
@@ -29,7 +33,7 @@ http.createServer(function(req, res){
     break;
   }
 
-}).listen(8080);
+}).listen(PORT_NO);
 
-console.log('New Relic test server just started!');
+console.log('New Relic test server just started on port: ' + PORT_NO);
 
