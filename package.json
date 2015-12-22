@@ -7,7 +7,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "newrelic": "1.14.6"
+    "newrelic": "1.24.0"
   },
   "engines": {
     "node": "0.10.x"
