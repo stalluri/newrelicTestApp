@@ -10,8 +10,6 @@ var jsonToSend = {
   Role:"Adminstrator"
 };
 
-
-
 //Server
 PORT_NO=3000;
 
